@@ -1,6 +1,6 @@
 # ComputerNetworks
 
-## Flow Control Methods:
+## Flow Control Methods: [Code here](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
 Used to observe proper flow of data from sender to receiver.
 Flow control is actually set of procedures that explains sender about how much data or frames it can transfer or transmit before data overwhelms receiver.
 
