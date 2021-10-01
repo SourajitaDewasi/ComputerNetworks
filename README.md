@@ -5,7 +5,7 @@ Used to observe proper flow of data from sender to receiver.
 Flow control is actually set of procedures that explains sender about how much data or frames it can transfer or transmit before data overwhelms receiver.
 
 The receiving device also contains only limited amount of speed and memory to store data. This is why receiving device should be able to tell or inform the sender about stopping the transmission or transferring of data on temporary basis before it reaches limit. 
-[Reference used for definition: GeekFor Geeks ](https://www.geeksforgeeks.org/flow-control-in-data-link-layer/)
+[Reference used: GeekFor Geeks ](https://www.geeksforgeeks.org/flow-control-in-data-link-layer/)
 
 ### 1. Go Back N [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/GoBackN.cpp)
 In Go Back N, there is a window in sender's side but only one unit receiver buffer. So if out of order packet 
