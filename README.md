@@ -1,24 +1,24 @@
 # ComputerNetworks
 
-## Flow Control Methods: [Code here](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
+## Flow Control Methods: [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
 Used to observe proper flow of data from sender to receiver.
 Flow control is actually set of procedures that explains sender about how much data or frames it can transfer or transmit before data overwhelms receiver.
 
 The receiving device also contains only limited amount of speed and memory to store data. This is why receiving device should be able to tell or inform the sender about stopping the transmission or transferring of data on temporary basis before it reaches limit. 
 [Reference used for definition: GeekFor Geeks ](https://www.geeksforgeeks.org/flow-control-in-data-link-layer/)
 
-### 1. Go Back N 
+### 1. Go Back N [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/GoBackN.cpp)
 In Go Back N, there is a window in sender's side but only one unit receiver buffer. So if out of order packet 
 arrives it's not taken in. There is cumulative acknowledgement. And for a lost data packet or acknowledgement 
 the entire window is retransmitted. 
 
-### 2. Selective Repeat Protocol 
+### 2. Selective Repeat Protocol [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/SelectiveRepeat.cpp)
 In Selective Repeat Protocol, there is a window in sender's sideand a same sized receiver buffer.
 So if out of order packet arrives it's not taken in, if it's required in the receiver's buffer. 
 There is independent acknowledgement. And for a lost data packet or acknowledgement slectively that data 
 packet is retransmitted.
 
-### 3. Stop and Wait Protocol
+### 3. Stop and Wait Protocol [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/StopWait.cpp)
 Stop and Wait Protocol: Send one packet and wait for it's independent acknowledgement before sending
 the next packet. If the data packet is lost, the acknowledgement doesn't come, it means the data packet
 needs to be retransmitted by the user.Even if the acknowledgement is lost, the sender retransmits the 
