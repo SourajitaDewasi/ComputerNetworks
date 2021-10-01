@@ -1,4 +1,5 @@
 # ComputerNetworks
+Algorithms Learned During Computer Network Course
 
 ## Flow Control Methods: [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
 Used to observe proper flow of data from sender to receiver.
