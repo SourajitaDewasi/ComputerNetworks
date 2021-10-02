@@ -27,12 +27,12 @@ data packet. Seeing an already sent data packet, the receiver sends an acknowled
 discards the duplicate packet.
 
 ## Medium Access Control Protocols
-### 1. Slotted ALOHA
+### 1. Slotted ALOHA 
 Slotted ALOHA is Pure ALOHA but now with time slots so that vulnerable time is less. Because the previous
 packet will be completed and can't overlap. Only the packet which starts at same time can conflict or be in 
 collision. The maximum efficiency of ALOHA is 1/2e and slotted ALOHA is 1/e.
 
-### 2. CSMA/CD
+### 2. CSMA/CD [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/CSMACD.cpp)
 In CSMA/CD, we detect the nodes of connection to send the data packet from a station. Most of the time
 this leads to collision which is resolved by the binary backoff algorithm.
 
