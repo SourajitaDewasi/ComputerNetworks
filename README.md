@@ -26,7 +26,8 @@ needs to be retransmitted by the user.Even if the acknowledgement is lost, the s
 data packet. Seeing an already sent data packet, the receiver sends an acknowledgement but silently 
 discards the duplicate packet.
 
-## Medium Access Control Protocols (MAC): [Code Link] 
+## Medium/Media Access Control Protocols (MAC): [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/MAC)
+
 ### 1. Slotted ALOHA [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/SlottedALOHA.cpp)
 Slotted ALOHA is Pure ALOHA but now with time slots so that vulnerable time is less. Because the previous
 packet will be completed and can't overlap. Only the packet which starts at same time can conflict or be in 
