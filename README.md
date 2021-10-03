@@ -42,3 +42,7 @@ Time Division Multiplexing: means equal division of time reserved for each stati
 Round Robin Technique but without conducting a poll on which station has the requirement to transmit 
 data packets to avoid wastage of efficiency in reservation for stations which don't have data packets
 to transmit. Since there is only one packet at a time reserved in channel there can be no collision.
+
+### 4. ALOHA [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/ALOHA.cpp)
+[Reference Link](https://www.tutorialspoint.com/aloha-protocol-in-computer-network)
+In ALOHA, each node or station transmits a frame without trying to detect whether the transmission channel is idle or busy. If the channel is idle, then the frames will be successfully transmitted. If two frames attempt to occupy the channel simultaneously, collision of frames will occur and the frames will be discarded. These stations may choose to retransmit the corrupted frames repeatedly until successful transmission occurs.
