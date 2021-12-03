@@ -1,11 +1,13 @@
 # ComputerNetworks
 Algorithms Learned During Computer Network Course
 
-## Flow Control Methods: [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
-Used to observe proper flow of data from sender to receiver.
-Flow control is actually set of procedures that explains sender about how much data or frames it can transfer or transmit before data overwhelms receiver.
+## Flow Control Methods: 
+Observes the proper flow of data from the sender to the recipient.
+Flow control is a collection of methods that informs the sender how much data or frames they can move or transmit before the recipient becomes overwhelmed.
 
-The receiving device also contains only limited amount of speed and memory to store data. This is why receiving device should be able to tell or inform the sender about stopping the transmission or transferring of data on temporary basis before it reaches limit. 
+In addition, the receiving device has a limited quantity of speed and memory for storing data. This is why, before reaching a limit, the receiving device should be able to alert or inform the sender to temporarily halt data transmission or transfer.
+
+[Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/Flow%20Control%20Methods)
 [Reference used: GeekFor Geeks ](https://www.geeksforgeeks.org/flow-control-in-data-link-layer/)
 
 ### 1. Go Back N [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/GoBackN.cpp)
