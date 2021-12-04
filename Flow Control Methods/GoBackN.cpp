@@ -1,4 +1,6 @@
-/*This code is contributed by Sourajita Dewasi. In Go Back N, there is a window in sender's side but only one unit receiver buffer. So if out of order packet 
+/*This code is contributed by Sourajita Dewasi. */
+
+/*In Go Back N, there is a window in sender's side but only one unit receiver buffer. So if out of order packet 
 arrives it's not taken in. There is cumulative acknowledgement. And for a lost data packet or acknowledgement 
 the entire window is retransmitted.*/
 
