@@ -18,11 +18,12 @@ the entire window is retransmitted.
 
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/GoBackN.cpp)
 
-### 2. Selective Repeat Protocol [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/SelectiveRepeat.cpp)
+### 2. Selective Repeat Protocol 
 In Selective Repeat Protocol, there is a window in sender's sideand a same sized receiver buffer.
 So if out of order packet arrives it's not taken in, if it's required in the receiver's buffer. 
 There is independent acknowledgement. And for a lost data packet or acknowledgement slectively that data 
-packet is retransmitted.
+packet is retransmitted. 
+[Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/SelectiveRepeat.cpp)
 
 ### 3. Stop and Wait Protocol [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/StopWait.cpp)
 Stop and Wait Protocol: Send one packet and wait for it's independent acknowledgement before sending
