@@ -35,7 +35,7 @@ discards the duplicate packet.
 ## Medium/Media Access Control Protocols (MAC): 
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/MAC)
 
-### 1. Slotted ALOHA [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/SlottedALOHA.cpp)
+### 1. Slotted ALOHA 
 Slotted ALOHA is Pure ALOHA but now with time slots so that vulnerable time is less. Because the previous
 packet will be completed and can't overlap. Only the packet which starts at same time can conflict or be in 
 collision. The maximum efficiency of ALOHA is 1/2e and slotted ALOHA is 1/e.
