@@ -57,8 +57,9 @@ to transmit. Since there is only one packet at a time reserved in channel there 
 
 In ALOHA, each node or station transmits a frame without trying to detect whether the transmission channel is idle or busy. If the channel is idle, then the frames will be successfully transmitted. If two frames attempt to occupy the channel simultaneously, collision of frames will occur and the frames will be discarded. These stations may choose to retransmit the corrupted frames repeatedly until successful transmission occurs.
 
-### 5. Polling [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/Polling.cpp)
+### 5. Polling 
 This is Time Division Multiplexing means equal division of time reserved for each station in
 Round Robin Technique but after conducting a poll on which station has the requirement to transmit 
 data packets to avoid wastage of efficiency in reservation for stations which don't have data packets
 to transmit. Since there is only one packet at a time in channel there can be no collision.
+[Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/Polling.cpp)
