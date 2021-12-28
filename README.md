@@ -69,4 +69,4 @@ to transmit. Since there is only one packet at a time in channel there can be no
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/Polling.cpp)
 
 
-### License Used: 
+### License Used: [MIT License](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/LICENSE)
