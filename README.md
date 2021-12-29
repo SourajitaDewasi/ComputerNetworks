@@ -56,10 +56,12 @@ to transmit. Since there is only one packet at a time reserved in channel there 
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/TDM.cpp)
 
  
-### 4. ALOHA [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/ALOHA.cpp)
-[Reference Link](https://www.tutorialspoint.com/aloha-protocol-in-computer-network)
-
+### 4. ALOHA 
 In ALOHA, each node or station transmits a frame without trying to detect whether the transmission channel is idle or busy. If the channel is idle, then the frames will be successfully transmitted. If two frames attempt to occupy the channel simultaneously, collision of frames will occur and the frames will be discarded. These stations may choose to retransmit the corrupted frames repeatedly until successful transmission occurs.
+
+[Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/ALOHA.cpp)
+
+[Reference Link](https://www.tutorialspoint.com/aloha-protocol-in-computer-network)
 
 ### 5. Polling 
 This is Time Division Multiplexing means equal division of time reserved for each station in
