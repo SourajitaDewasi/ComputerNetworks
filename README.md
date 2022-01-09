@@ -37,6 +37,8 @@ discards the duplicate packet.
 
 
 ## Medium/Media Access Control Protocols (MAC): 
+Media access control (MAC) protocols define a way for granting access to a shared media network to numerous devices. Prior to the invention of LANs, communication between computing devices was limited to point-to-point. That is, a dedicated channel was used to connect two devices. The data link layer of the open system interconnections (OSI) standard model for data transmission includes a sublayer called medium access control (MAC). It is in charge of transmission medium flow regulation and multiplexing. It manages the transfer of data packets through shared channels that are accessible from afar. 
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/tree/main/MAC)
 
 ### 1. Slotted ALOHA 
