@@ -49,6 +49,7 @@ collision. The maximum efficiency of ALOHA is 1/2e and slotted ALOHA is 1/e.
 ### 2. CSMA/CD 
 In CSMA/CD, we detect the nodes of connection to send the data packet from a station. Most of the time
 this leads to collision which is resolved by the binary backoff algorithm.
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/CSMACD.cpp)
 
 ### 3. Time Division Multiplexing
@@ -56,6 +57,7 @@ Time Division Multiplexing: means equal division of time reserved for each stati
 Round Robin Technique but without conducting a poll on which station has the requirement to transmit 
 data packets to avoid wastage of efficiency in reservation for stations which don't have data packets
 to transmit. Since there is only one packet at a time reserved in channel there can be no collision.
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/TDM.cpp)
 
  
