@@ -23,6 +23,7 @@ In Selective Repeat Protocol, there is a window in sender's sideand a same sized
 So if out of order packet arrives it's not taken in, if it's required in the receiver's buffer. 
 There is independent acknowledgement. And for a lost data packet or acknowledgement slectively that data 
 packet is retransmitted. 
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/SelectiveRepeat.cpp)
 
 ### 3. Stop and Wait Protocol 
@@ -31,6 +32,7 @@ the next packet. If the data packet is lost, the acknowledgement doesn't come, i
 needs to be retransmitted by the user.Even if the acknowledgement is lost, the sender retransmits the 
 data packet. Seeing an already sent data packet, the receiver sends an acknowledgement but silently 
 discards the duplicate packet.
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/Flow%20Control%20Methods/StopWait.cpp)
 
 
@@ -41,6 +43,7 @@ discards the duplicate packet.
 Slotted ALOHA is Pure ALOHA but now with time slots so that vulnerable time is less. Because the previous
 packet will be completed and can't overlap. Only the packet which starts at same time can conflict or be in 
 collision. The maximum efficiency of ALOHA is 1/2e and slotted ALOHA is 1/e.
+
 [Code Link](https://github.com/SourajitaDewasi/ComputerNetworks/blob/main/MAC/SlottedALOHA.cpp)
 
 ### 2. CSMA/CD 
