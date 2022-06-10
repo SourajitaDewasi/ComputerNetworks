@@ -11,7 +11,7 @@ In addition, the receiving device has a limited quantity of speed and memory for
 
 [Reference used: GeekFor Geeks ](https://www.geeksforgeeks.org/flow-control-in-data-link-layer/)
 
-### 1. Go Back N 
+### 1. Go Back N Protocol
 In Go Back N, there is a window in sender's side but only one unit receiver buffer. So if out of order packet 
 arrives it's not taken in. There is cumulative acknowledgement. And for a lost data packet or acknowledgement 
 the entire window is retransmitted. 
